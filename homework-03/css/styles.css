@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Playfair Display", serif;
+  color: rgb( 98, 98, 98 );
+  font-size: 14px;
+  line-height: 24px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+.navigation-list {
+  height: 190px;
+  margin: 0;
+  padding: 0;
+  padding-top: 65px;
+  padding-bottom: 100px;
+  text-decoration: none;
+}
+.navigation-list li {
+  list-style: none;
+  display: inline-block;
+  line-height: 24px;
+  color: rgb( 98, 98, 98 );
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.lifestyle {
+  display: block;
+  text-decoration: none;
+  margin-left: 150px;
+}
+.photodiary {
+  display: block;
+  text-decoration: none;
+  margin-left: 120px;
+}
+.music {
+  display: block;
+  text-decoration: none;
+  margin-left: 105px;
+}
+.travel {
+  display: block;
+  text-decoration: none;
+  margin-left: 105px;
+  margin-right: 150px;
+}
+.navigation-list li:hover,
+.navigation-list li:focus {
+  color: blue;
+}
+.section-list {
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  margin-bottom: 53px;
+}
+.section-list-item {
+  width: 421px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 58px;
+  margin-bottom: 130px;
+}
+.section-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+.section-list-item:nth-last-child(-n +2) {
+  margin-bottom: 0;
+}
+.section-list-image {
+  margin-bottom: 31px;
+}
+.section-list-title {
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: "Ubuntu", sans-serif; 
+  color: rgba(180, 173, 158, 0.7);
+  text-transform: uppercase;
+  line-height: 17px;
+  margin-bottom: 31px;
+}
+.section-list-slogan {
+  color: rgb(#626262);
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 37px;
+}
+.section-list-description {
+  font-size: 14px;
+  color: rgb(#626262);
+  line-height: 24px;
+}
+.bottom_button {
+  color: rgb(#626262);
+  font-size: 20px;
+  line-height: 24px;
+  display: block, center;
+  margin-left: 363px;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
