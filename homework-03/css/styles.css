@@ -42,17 +42,20 @@ img {
   display: block;
   text-decoration: none;
   margin-left: 120px;
+  color: rgb(98, 98, 98);
 }
 .music {
   display: block;
   text-decoration: none;
   margin-left: 105px;
+  color: rgb(98, 98, 98);
 }
 .travel {
   display: block;
   text-decoration: none;
   margin-left: 105px;
   margin-right: 150px;
+  color: rgb(98, 98, 98);
 }
 .lifestyle:hover,
 .lifestyle:focus {
@@ -72,7 +75,7 @@ img {
 }
 .section-list {
   font-family:"Playfair Display", serif;
-  color: rgb(#626262);
+  color: rgb(98, 98, 98);
   list-style: none;
   padding: 0;
   font-size: 0;
