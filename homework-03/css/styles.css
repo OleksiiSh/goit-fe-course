@@ -58,9 +58,21 @@ img {
   margin-left: 105px;
   margin-right: 150px;
 }
-.navigation-list li:hover,
-.navigation-list li:focus {
+.lifestyle:hover,
+.lifestyle:focus {
   color: blue;
+}
+.photodiary:hover,
+.photodiary:focus {
+    color: blue;
+}
+.music:hover,
+.music:focus {
+    color: blue;
+}
+.travel:hover,
+.travel:focus {
+    color: blue;
 }
 .section-list {
   list-style: none;
@@ -111,6 +123,7 @@ img {
   line-height: 24px;
   display: block, center;
   margin-left: 363px;
+  margin-bottom: 91px;
 }
 .visually-hidden {
 	position: absolute !important;
