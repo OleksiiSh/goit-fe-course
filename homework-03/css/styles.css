@@ -6,12 +6,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-body {
-  font-family: "Playfair Display", serif;
-  color: rgb( 98, 98, 98 );
-  font-size: 14px;
-  line-height: 24px;
-}
 img {
   display: block;
   max-width: 100%;
@@ -30,10 +24,12 @@ img {
   text-decoration: none;
 }
 .navigation-list li {
+  font-family:"Playfair Display", serif;
+  font-size: 14px;
   list-style: none;
   display: inline-block;
   line-height: 24px;
-  color: rgb( 98, 98, 98 );
+  color: rgb(#626262);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -60,21 +56,23 @@ img {
 }
 .lifestyle:hover,
 .lifestyle:focus {
-  color: blue;
+  color: rgb(3, 169, 244);
 }
 .photodiary:hover,
 .photodiary:focus {
-    color: blue;
+  color: rgb(3, 169, 244);  
 }
 .music:hover,
 .music:focus {
-    color: blue;
+  color: rgb(3, 169, 244);
 }
 .travel:hover,
 .travel:focus {
-    color: blue;
+  color: rgb(3, 169, 244);
 }
 .section-list {
+  font-family:"Playfair Display", serif;
+  color: rgb(#626262);
   list-style: none;
   padding: 0;
   font-size: 0;
@@ -107,23 +105,35 @@ img {
   margin-bottom: 31px;
 }
 .section-list-slogan {
-  color: rgb(#626262);
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 37px;
+  font-family:"Playfair Display", serif;
+  color: rgb(98, 98, 98);
 }
 .section-list-description {
+  font-family:"Playfair Display", serif;
   font-size: 14px;
-  color: rgb(#626262);
+  color: rgb(98, 98, 98);
   line-height: 24px;
 }
 .bottom_button {
-  color: rgb(#626262);
+  font-family:"Playfair Display", serif;
+  color: rgb(98, 98, 98);
   font-size: 20px;
   line-height: 24px;
-  display: block, center;
-  margin-left: 363px;
+  display: inline-block;
+  margin-left: 360px;
   margin-bottom: 91px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 98, 98, 98 );
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-right: 33px;
+  padding-bottom: 20px;
+  padding-left: 37px;
 }
 .visually-hidden {
 	position: absolute !important;
@@ -135,3 +145,5 @@ img {
 	width: 1px !important; 
 	overflow: hidden;
 }
+}
+
