@@ -55,20 +55,8 @@ img {
   margin-left: 105px;
   margin-right: 150px;
 }
-.lifestyle:hover,
-.lifestyle:focus {
-  color: rgb(3, 169, 244);
-}
-.photodiary:hover,
-.photodiary:focus {
-  color: rgb(3, 169, 244);  
-}
-.music:hover,
-.music:focus {
-  color: rgb(3, 169, 244);
-}
-.travel:hover,
-.travel:focus {
+.navigation-list li :hover,
+.navigation-list li :focus {
   color: rgb(3, 169, 244);
 }
 .section-list {
