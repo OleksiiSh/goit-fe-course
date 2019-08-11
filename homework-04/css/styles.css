@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+  
+}
+body {
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 1110px;
+  margin-left: 262px;
+  margin-right: 275px;
+}
+header {
+  margin-bottom: 105px;
+}
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+.navigation-list {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 475px;
+}
+.navigation-list li {
+  margin-top: 45px;
+  float: left;
+}
+.navigation-list li :hover,
+.navigation-list li :focus {
+  color: rgb(26, 188, 156);
+}
+.navigation-site-logo {
+  margin-top: 37px;
+  display: inline-block;
+  width: 635px;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: rgb(85, 82, 82);
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: center;
+}
+.navigation-site-logo::first-letter {
+  font-weight: 700;
+  color: rgb( 25,188, 156);
+}
+.navigation-list a {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Open Sals";
+  font-weight: 700;
+  color: rgb(15, 1, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Home {
+  margin-left: 8px;
+  margin-right: 30px;
+}
+.About {
+  margin-right: 30px;
+}
+.Page {
+  margin-right: 28px;
+}
+.Shop {
+  margin-right: 28px;
+}
+.Blog {
+  margin-right: 28px;
+}
+h2 {
+  display: block;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2::after {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background-color: rgb( 25,188, 156);
+  content: '';
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.section-list-featured-products {
+  margin: 0;
+  padding: 0;
+}
+.section-list-item {  
+  float: left;
+  list-style: none;
+  width: 255px;
+  height: 323px;
+}
+.section-list-product {
+  margin: 0;
+  padding: 0;
+  padding-left: 12px;
+  padding-top: 7px; 
+  float: left;
+  width: 200px;
+  height: 42px;
+  background-color: rgb(50, 50, 50);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+.section-list-product:hover,
+.section-list-price:hover,
+.section-list-produc:focus,
+.section-list-price {
+  background-color: rgb(26, 188, 156);
+}
+.section-list-price {
+  margin: 0;
+  padding: 0;
+  padding-left: 12px;
+  padding-top: 7px; 
+  float: left;
+  width: 55px;
+  height: 42px;
+  background-color: rgb(140, 140, 140);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+
+
+.section-list-price {
+  float: right;
+  width: 55px;
+  height: 42px;
+}
+
+
+.section-list-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.section-list-item:not(:nth-last-child(-n+4)) {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 105px;
+  vertical-align: middle;
+}
+h4::after {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background-color: rgb( 25,188, 156);
+  content: '';
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.section-list-description {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Open Sals", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+.section-list-latest-news {
+  margin: 0;
+  padding: 0;
+}
+.section-list-latest-news li {  
+  float: left;
+  width: 350px;
+  height: 495px;
+  list-style: none;
+}
+.section-list-latest-news li:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.section-list-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Open Sals", sans-serif;
+  font-weight: 600;
+  color: rgb(85, 82, 82);
+}
+.bottom-button {
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
+  float: left;
+  border: 1px solid;
+  background-color: rgb( 78,198, 171);
+  padding: 20px 33px 20px 37px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.bottom-button:hover,
+.bottom-button:focus {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
