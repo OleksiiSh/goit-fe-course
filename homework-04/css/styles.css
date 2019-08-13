@@ -163,13 +163,13 @@ h4::after {
   padding: 0;
 }
 .section-list-latest-news li {  
+  width: 348px;
+  height: 496px;
   float: left;
-  width: 350px;
-  height: 495px;
   list-style: none;
 }
 .section-list-latest-news li:not(:nth-child(3n)) {
-  margin-right: 30px;
+  margin-right: 34px;
 }
 .section-list-title {
   font-size: 18px;
