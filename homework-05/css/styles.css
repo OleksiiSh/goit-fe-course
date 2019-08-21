@@ -265,6 +265,12 @@ main {
   text-transform: uppercase;
 }
 
+.section-list-product,
+.section-list-price,
+.sales-icons li {
+  cursor: pointer;
+
+}
 .section-list-price {
   position: absolute;
   bottom: 0;
