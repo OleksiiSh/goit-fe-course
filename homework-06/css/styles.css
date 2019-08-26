@@ -1,0 +1,413 @@
+html {
+box-sizing: border-box;
+background-color: #ffffff;
+}
+
+.container {
+margin: 0 auto;
+width: 1200px;
+}
+
+*, 
+*::before, 
+*::after {
+box-sizing: inherit;
+}
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.clearfix::after {
+display: table;
+content: '';
+clear: both;
+}
+
+.visually-hidden {
+position: absolute !important;
+clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+clip: rect(1px, 1px, 1px, 1px);
+padding: 0 !important;
+border: 0 !important;
+height: 1px !important; 
+width: 1px !important; 
+overflow: hidden;
+}
+
+/*--Navigation*/
+
+.logo-navigation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 37px;
+margin-top: 28px;
+margin-bottom: 113px;
+}
+
+.navigation-list {
+width: 490px;
+padding: 0;
+margin: 0;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navigation-site-logo {
+padding: 0;
+margin: 0;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #95e1d3;
+}
+
+.navigation-list-item {
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #95e1d3;
+transition: color 200ms linear;
+}
+
+.navigation-list-item:hover {
+color:#f59a9a;
+border-bottom: 3px solid #f38181;
+padding-bottom: 12px;
+}
+
+/*--Section 1 Amazing Services--*/
+
+h3 {
+padding: 0;
+margin: 0;
+margin-bottom: 22px;
+font-family: 'Kaushan Script', cursive;
+font-size: 24px;
+line-height: 29px;
+font-weight: 400;
+display: block;
+text-align: center;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+line-height: 36px;
+font-weight: 700px;
+text-transform: uppercase;
+display: block;
+text-align: center;
+}
+
+h2::after {
+display: block;
+width: 60px;
+height: 3px;
+background-color: #f38181;
+content: '';
+margin: 0 auto;
+margin-top: 42px;
+margin-bottom: 66px;
+}
+
+.amazing-services-list {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+margin: 0;
+justify-content: space-between;
+}
+
+.amazing-services-list-item-header {
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+
+.amazing-services-list-item-description {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #999999;
+}
+
+.amazing-services-list-item {
+padding-left: 80px;
+position: relative;
+width: 381px;
+margin-bottom: 100px;
+cursor: pointer;
+}
+
+.amazing-services-list-item::before {
+display: inline-block;
+content: '';
+background-repeat: no-repeat;
+background-position: center;
+min-width: 80px;
+min-height: 32px;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.alarm::before {
+background-image: url(../img/icons/alarm.png);
+}
+
+.line-graph::before {
+background-image: url(../img/icons/line-graph.png);
+}
+
+.computer::before {
+background-image: url(../img/icons/ok.png);
+}
+
+.book::before {
+background-image: url(../img/icons/book.png);
+}
+
+.home::before {
+background-image: url(../img/icons/home.png);
+}
+
+.digital::before {
+background-image: url(../img/icons/image.png);
+}
+
+.amazing-services-list-item:nth-last-child(-n+3) {
+margin-bottom: 92px;
+}
+
+/* Section Meet our Team--*/
+
+h4 {
+display: block;
+width: 941px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #999999;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 92px;
+}
+
+.meet-our-team-name {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 14px;
+line-height: 17px;
+color: rgb( 51, 51, 51 );
+display: block;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 15px;
+}
+
+.meet-our-team-occupation {
+font-family: 'Roboto - Light Italic', sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgb( 153, 153, 153 );
+display: block;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 82px;
+}
+
+.meet-our-team-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.meet-our-team-list-item {
+min-width: 380px;
+min-height: 542px;
+position: relative;
+}
+
+.overlay {
+width: 380px;
+height: 470px;
+background-color: #95e1d3;
+position: relative;
+padding: 0;
+margin: 0;
+margin-bottom: 31px;
+}
+
+.hover-ovelay {
+width: 380px;
+height: 470px;
+position: absolute;
+float: left;
+top: 0;
+padding: 0;
+margin: 0;
+transition: background-color 200ms linear;
+}
+
+.meet-our-team-image {
+position: absolute;
+float: left;
+top: 0;
+transition: transform 200ms linear;
+}
+
+.contact-icons-list {
+position: absolute;
+float: left;
+opacity: 0;
+width: 224px;
+height: 56px;
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+top: 207px;
+right: 78px;
+transition: transform 200ms linear;
+transition: opacity 200ms linear;
+}
+
+.contact-icons-list-item {
+width: 56px;
+height: 56px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgb(252, 227, 138);
+border: 1px solid #f38181;
+transition: background-color 200ms linear;
+}
+
+.facebook {
+background-image: url(../img/icons/social-icons/facebook.png)
+}
+
+.twitter {
+background-image: url(../img/icons/social-icons/twitter.png)
+}
+
+.pinterest {
+background-image: url(../img/icons/social-icons/pinterest.png)
+}
+
+.instagram {
+background-image: url(../img/icons/social-icons/instagram.png)
+}
+
+/* ----HOVER EFFECT ON meet-our-team-list-item ---*/
+
+.meet-our-team-image:hover {
+transform: translate(-10px, -10px);
+}
+
+.meet-our-team-image:hover .hover-ovelay {
+transform: translate(-10px, -10px);
+background-color: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+}
+
+.meet-our-team-list-item:hover .contact-icons-list {
+transform: translate(-10px, -10px);
+opacity: 1;
+cursor: pointer;
+}
+
+.contact-icons-list-item:hover {
+background-color:rgb(149, 225, 211);
+}
+
+.contact-icons-list:hover .meet-our-team-image {
+transform: translate(-10px, -10px);
+}
+
+/*----Footer-----*/
+
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 51px;
+color:#f59a9a;
+border-top: 1px solid #e5e5e5;
+}
+
+.subscription {
+width: 379px;
+height: 40px;
+display: flex;
+}
+
+.text-for-filling {
+width: 230px;
+height: 40px;
+border: 1px solid #e7e7e7;
+margin: 0;
+padding: 14px 130px 13px 13px;
+} 
+
+.text-for-filling::placeholder {
+font-family: "Roboto - Light Italic", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgb(204, 204, 204);
+}
+
+.text-submission {
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+line-height: 17px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+background-color: #95e1d3;
+border: none;
+}
+
+.text-submission {
+width: 150px;
+height: 40px;
+}
+
+.legal-information {
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 17px;
+color: rgb(51, 51, 51);
+}
+
+.legal-information-link {
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 17px;
+color: #f38181;
+cursor: pointer;
+}
