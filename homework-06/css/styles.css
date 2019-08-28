@@ -233,7 +233,6 @@ color: rgb( 153, 153, 153 );
 display: block;
 margin: 0 auto;
 text-align: center;
-margin-bottom: 82px;
 }
 
 .meet-our-team-list {
@@ -246,11 +245,18 @@ padding: 0;
 margin: 0;
 }
 
+.meet-our-team-list-item-picture {
+min-width: 380px;
+min-height: 470px;
+position: relative;
+transition: transform 200ms linear, opacity 200ms linear, background-image 200ms linear, background-color 200ms linear;
+margin-bottom: 35px;
+
+}
 .meet-our-team-list-item {
 min-width: 380px;
 min-height: 542px;
-position: relative;
-transition: transform 200ms linear, opacity 200ms linear, background-image 200ms linear, background-color 200ms linear;
+margin-bottom: 85px;
 }
 
 .overlay {
@@ -283,7 +289,7 @@ z-index: 2;
 }
 
 .contact-icons-list {
-width: 224px;
+width: 230px;
 height: 56px;
 float: left;
 position: absolute;
@@ -292,9 +298,9 @@ display: flex;
 list-style: none;
 padding: 0;
 margin: 0;
-top: 44%;
+top: 50%;
 left: 50%;
-transform: translate(-50%, -56%);
+transform: translate(-50%, -50%);
 transition: opacity 200ms linear, background-color 200ms linear;
 z-index: 4;
 }
@@ -305,8 +311,6 @@ height: 56px;
 background-repeat: no-repeat;
 background-position: center;
 background-color: rgb(252, 227, 138);
-outline-color: #f38181;
-border: 1px solid #f38181;
 transition: background-color 200ms linear;
 }
 
@@ -328,21 +332,21 @@ background-image: url(../img/icons/social-icons/instagram.png)
 
 /* ----HOVER EFFECT ON meet-our-team-list-item ---*/
 
-.meet-our-team-list-item:hover {
+.meet-our-team-list-item-picture:hover {
 transform: translate(-10px, -10px);
 }
 
-.meet-our-team-list-item:hover .overlay {
+.meet-our-team-list-item-picture:hover .overlay {
 transform: translate(10px, 10px);
 background-color: #95e1d3;
 }
 
-.meet-our-team-list-item:hover .second-overlay {
+.meet-our-team-list-item-picture:hover .second-overlay {
 background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
 
 }
 
-.meet-our-team-list-item:hover .contact-icons-list {
+.meet-our-team-list-item-picture:hover .contact-icons-list {
 opacity: 1;
 cursor: pointer;
 }
