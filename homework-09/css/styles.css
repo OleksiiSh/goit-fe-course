@@ -58,21 +58,21 @@ margin-bottom: 38px;
 .navigation-button {
 width: 90px;
 height: 36px;
-background: transparent;
-border: 2px solid transparent;
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, 0);
+border-radius: 18px;
 border-radius: 18px;
 font-weight: 700;
 font-size: 14px;
 line-height: 17px;
-color: rgb(255, 255, 255);
 font-family: "Montserrat", sans-serif;
-transition: border-color 0.2s ease;
+color: #ffffff;
 cursor: pointer;
 }
 
-.navigation-button:hover,
-.navigation-button:focus {
-border-color: rgb(255, 255, 255);
+.navigation-button :hover,
+.navigation-button :focus {
+border-color: rgba(255, 255, 255, 1);
 }
 
 .navigation-header {
@@ -147,46 +147,41 @@ margin: 0 auto;
 
 .partners-list-item-photo {
 position: relative;
-width: 121px;
-height: 121px;
 margin: 0 auto;
 margin-bottom: 20px;
 z-index: 2;
 }
 
-.partners-list-item-photo-icon::after {
+.partners-list-item-photo::after {
 position: absolute;
 right: 0;
 bottom: 0;
 display: block;
 content: '';
-height: 35px;
-width: 35px;
-border: 4px solid rgb(255, 255, 255);
+height: 33px;
+width: 33px;
+border: 3px solid rgb(255, 255, 255);
 border-radius: 100%;
 background-repeat: no-repeat;
 background-position: center;
+background-color: rgb(255, 78, 80);
 z-index: 1;
 }
 
-.icon-1::after {
+.photo-1::after {
 background-image: url(../img/icons/tv_box.png);
-background-color: rgb(255, 78, 80);
 }
 
-.icon-2::after {
+.photo-2::after {
 background-image: url(../img/icons/colb.png);
-background-color: #ffa507;
 }
 
-.icon-3::after {
+.photo-3::after {
 background-image: url(../img/icons/coffee.png);
-background-color: #1cd7ad;
 }
 
-.icon-4::after {
+.photo-4::after {
 background-image: url(../img/icons/telegram_icon.png);
-background-color: #4e73db;
 }
 
 .partners-list-item-name {
